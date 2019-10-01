@@ -3,6 +3,9 @@ package com.example.demo.models;
 public class Movie {
 	private String movieId;
 	private String movieName;
+	
+	public Movie() {}
+	
 	public String getMovieId() {
 		return movieId; 
 	}
